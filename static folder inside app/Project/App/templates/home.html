@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/App/home.css'}">
+</head>
+<body>
+    <h1>Welcome to django page </h1>
+    <div class="images1">
+        <img src="{% static 'images/img1.jpeg' %}" alt="image cant be loaded">
+        <img src="{% static 'images/img1.jpeg' %}" alt="image cant be loaded">
+        <img src="{% static 'images/img1.jpeg' %}" alt="image cant be loaded">
+        </div>
+        <div class="video1">
+            <video controls>
+                <source src="{% static 'videos/video.mp4.mp4' %}" type="videos/mp4">
+            </video>
+        </div>
+    
+</body>
+</html>
