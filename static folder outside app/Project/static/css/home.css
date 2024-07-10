@@ -1,0 +1,21 @@
+
+.images1 img{
+    display: flex;
+    border: blue;
+    border: 5px solid black;
+
+}
+.videos1{
+    width: 30%;
+    height: 20%;
+
+}
+
+/* .raj{
+    height: 30%;
+    width: 50%;
+} */
+
+body{
+    background:whitesmoke;
+}
