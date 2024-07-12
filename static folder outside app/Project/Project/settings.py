@@ -19,7 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 print(BASE_DIR)
 STATIC_DIRS=os.path.join(BASE_DIR,'static')
 print(STATIC_DIRS)
-TEMPLATES_DIR=os.path.join(BASE_DIR,'template')
+TEMPLATES_DIR=os.path.join(BASE_DIR,'templates')
 print(TEMPLATES_DIR)
 
 
@@ -124,8 +124,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static'
-STATICFILES_DIRS=['STATIC_DIR']
+STATIC_URL = 'static/'
+STATICFILES_DIRS=[STATIC_DIRS]
 
 
 # Default primary key field type
